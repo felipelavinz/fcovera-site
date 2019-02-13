@@ -1,7 +1,7 @@
 .header {
   position: relative;
   width: 100%;
-  padding: 80px 0 140px;
+  padding: 80px 0 100px;
   background: $color-white;
   z-index: 1;
 
@@ -23,7 +23,7 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 0 30px;
-  
+
     @include breakpoint(large down) {
       padding: 0 120px;
     }
@@ -109,7 +109,7 @@
       text-decoration: none;
       letter-spacing: 0.5px;
       color: $color-blue;
-  
+
       @include breakpoint(large down) {
         font-size: 29px;
       }
@@ -143,7 +143,7 @@
         @media screen and (max-width: 768px) {
           background-size: auto 8px;
         }
-        
+
         @include breakpoint(small down) {
           background-size: auto 7px;
         }
