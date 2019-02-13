@@ -1,5 +1,4 @@
 .--blog .main-content {
-  padding-bottom: 150px;
   overflow: hidden;
 }
 
@@ -29,7 +28,7 @@
     align-content: center;
     align-items: flex-start;
     justify-content: space-between;
-  
+
     @include breakpoint(large down) {
       padding: 0 120px;
     }
@@ -113,7 +112,7 @@
       font-size: 20px;
       font-family: $ff-primary;
       color: $color-gray;
-  
+
       @media screen and (max-width: 768px) {
         font-size: 18px;
       }
@@ -184,14 +183,14 @@
       // height: 430px;
       padding-bottom: calc(430 / 715 * 100%);
       overflow: visible;
-  
+
       @include breakpoint(large down) {
         width: 100%;
         // width: 630px;
         // height: 380px;
         padding-bottom: calc(380 / 630 * 100%);
       }
-  
+
       @include breakpoint(medium down) {
         width: 100%;
         // width: 530px;
@@ -206,7 +205,7 @@
         // height: 360px;
         padding-bottom: calc(360 / 390 * 100%);
       }
-  
+
       @include breakpoint(small down) {
         width: 100%;
         // width: 90%;
@@ -248,7 +247,7 @@
       //   height: 380px;
       //   padding-bottom: calc(380 / 630 * 100%);
       // }
-  
+
       // @include breakpoint(medium down) {
       //   width: 530px;
       //   height: 320px;
@@ -261,7 +260,7 @@
       //   width: 80%;
       //   padding-bottom: calc(360 / 390 * 100%);
       // }
-  
+
       // @include breakpoint(small down) {
       //   width: 260px;
       //   height: 240px;
@@ -309,7 +308,7 @@
       //   background-image: url('../assets/images/writings-3@small.jpg');
       // }
     }
-    
+
     img {
       position: relative;
       width: auto;
