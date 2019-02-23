@@ -23,9 +23,11 @@
 						<h1>
 							<?php the_title(); ?>
 						</h1>
+						<?php if ( ! empty( get_post_meta( get_the_ID(), 'portfolio_made_with', true ) ) ) : ?>
 						<small>
-							ChileCompra
+							<?php echo esc_html( get_post_meta( get_the_ID(), 'portfolio_made_with', true ) ); ?>
 						</small>
+						<?php endif; ?>
 					</a>
 					<?php ++$i; endwhile; endif; ?>
 				</div>

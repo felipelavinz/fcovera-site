@@ -2,7 +2,7 @@
 	<div class="-inner">
 		<div class="-left">
 			<h1 class="-title">
-				<a href="/">Francisco Vera</a>
+				<a href="<?php echo function_exists('pll_home_url') ? pll_home_url() : site_url(); ?>">Francisco Vera</a>
 			</h1>
 			<nav>
 				<a class="--writings" href="/writings/">Writings</a>
@@ -11,10 +11,7 @@
 			</nav>
 		</div>
 		<div class="-right">
-			<a class="-language js-language-toogle" href="#">
-				<span class="-language--desktop">Español</span>
-				<span class="-language--mobile">Es</span>
-			</a>
+			<?php echo chopan_language_switch(); ?>
 		</div>
 	</div>
 </header>

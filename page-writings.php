@@ -26,7 +26,7 @@
 								</h1>
 								<?php the_excerpt(); ?>
 								<time>
-									<?php the_time('jS F'); ?>
+									<?php the_time('F jS'); ?>
 								</time>
 							</a>
 							<?php ++$i; endwhile; endif; ?>

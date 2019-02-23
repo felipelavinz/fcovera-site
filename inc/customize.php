@@ -8,3 +8,5 @@
 // 	'title' => 'Configuraciones Inicio (español)',
 // 	'description' => 'Textos '
 // ] );
+
+// class Theme_Customizer extends
