@@ -66,7 +66,7 @@ the_post();
 				- Assign images in CSS with 'background-image: url('IMAGE_URL');'
 			-->
 			<?php $i=1; foreach ( get_post_meta( $post->ID, 'portfolio_project_gallery', false ) as $img_id ) : ?>
-			<div class="-image work-post<?php echo $i; ?>" style="background-image:url(<?php echo wp_get_attachment_image_url($img_id, 'single__gallery'); ?>)"></div>
+			<div class="-image work-post<?php echo $i; ?>" style="background-image:url(<?php echo wp_get_attachment_image_url($img_id, 'single__featured'); ?>)"></div>
 			<?php ++$i; endforeach; ?>
 		</div>
 		<?php endif; ?>
