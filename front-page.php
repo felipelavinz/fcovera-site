@@ -41,7 +41,7 @@ the_post();
 						<div>
 							<h2 class="-title wp-customize-discovering__title" data-aos="fade-in"><?php echo chopan_theme_custom('what_i_do__discovering_title', 'Discovering'); ?></h2>
 							<p data-aos="fade-in" class="wp-customize-discovering__title">
-								<?php echo chopan_theme_custom('what_id_do__discovering_description', 'Tools and methodologies applied to rise insights collaboratively with users and stakeholders. Workshops and cultural probes to collect information regarding pains and user behavior.'); ?>
+								<?php echo chopan_theme_custom('what_i_do__discovering_description', 'Tools and methodologies applied to rise insights collaboratively with users and stakeholders. Workshops and cultural probes to collect information regarding pains and user behavior.'); ?>
 							</p>
 							<div class="-showcase">
 								<div class="-gallery">
@@ -56,7 +56,7 @@ the_post();
 						<div>
 							<h2 class="-title wp-customize-defining__title" data-aos="fade-in"><?php echo chopan_theme_custom('what_i_do__defining_title', 'Defining' ); ?></h2>
 							<p data-aos="fade-in" class="wp-customize-defining__description">
-								<?php echo chopan_theme_custom('what_i_do__defininig_description', 'Conceptualization of ideas and definitions into maps and models to enable service decisions. Fast prototyping and controlled environment implementations to probe hypothesis.'); ?>
+								<?php echo chopan_theme_custom('what_i_do__defining_description', 'Conceptualization of ideas and definitions into maps and models to enable service decisions. Fast prototyping and controlled environment implementations to probe hypothesis.'); ?>
 							</p>
 							<div class="-showcase">
 								<div class="-gallery">
