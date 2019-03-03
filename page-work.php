@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: Trabajos
+ */
+get_header(); ?>
 <div id="swup" class="main-content">
 	<section class="work blog">
 		<div class="-inner">

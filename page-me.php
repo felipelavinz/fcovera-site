@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: Sobre mí
+ */
+get_header(); ?>
 <div id="swup" class="main-content transition-in">
 	<section class="me">
 		<div class="-inner">

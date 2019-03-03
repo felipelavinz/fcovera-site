@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: Escritos
+ */
+get_header(); ?>
 <div class="container">
 	<div class="inner-container">
 		<div id="swup" class="main-content">
