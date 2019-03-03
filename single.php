@@ -34,7 +34,7 @@ the_post();
 	<section class="next-post transition-in">
 		<!-- BEGIN: Next Writings Post - Replace 'href' attribute -->
 		<a href="<?php echo get_permalink( $previous ); ?>" class="inner">
-			<h3>Previous Post</h3>
+			<h3><?php echo esc_html_e('Previous Post', 'chopan_2019'); ?></h3>
 			<h1>
 				<?php echo get_the_title( $previous ); ?>
 			</h1>

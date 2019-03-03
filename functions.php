@@ -24,6 +24,8 @@ class Chopan_2019 {
 		// add_image_size( 'archive__gallery', 760, 461, true );
 		add_image_size( 'single__featured', 1170, 710, true );
 		add_image_size( 'single__gallery', 1170, 9999, true );
+
+		load_theme_textdomain( 'chopan_2019', get_template_directory() .'/languages' );
 	}
 	public function filter_body_class( array $classes ) : array {
 		$classes[] = 'page';

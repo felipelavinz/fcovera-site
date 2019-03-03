@@ -23,7 +23,7 @@ the_post();
 			</a>
 			<div class="-header">
 				<time datetime="<?php the_time('c'); ?>"><?php the_time('jS F'); ?></time>
-				<a href="/writings/">See my blog</a>
+				<a href="<?php echo esc_attr_x('/writings/', 'url seccion', 'chopan_2019'); ?>"><?php echo esc_html_x('See my blog', 'link home', 'chopan_2019'); ?></a>
 			</div>
 			</article>
 		<?php endwhile; endif; ?>
@@ -34,14 +34,14 @@ the_post();
 
 			<section class="what-i-do">
 				<div class="-inner">
-					<h1>This is what I do</h1>
+					<h1><?php echo esc_html_x('This is what I do', 'seccion home', 'chopan_2019'); ?></h1>
 				</div>
 				<div class="-inner">
 					<div class="--discovering">
 						<div>
-							<h2 class="-title" data-aos="fade-in">Discovering</h2>
-							<p data-aos="fade-in">
-								Tools and methodologies applied to rise insights collaboratively with users and stakeholders. Workshops and cultural probes to collect information regarding pains and user behavior.
+							<h2 class="-title wp-customize-discovering__title" data-aos="fade-in"><?php echo chopan_theme_custom('what_i_do__discovering_title', 'Discovering'); ?></h2>
+							<p data-aos="fade-in" class="wp-customize-discovering__title">
+								<?php echo chopan_theme_custom('what_id_do__discovering_description', 'Tools and methodologies applied to rise insights collaboratively with users and stakeholders. Workshops and cultural probes to collect information regarding pains and user behavior.'); ?>
 							</p>
 							<div class="-showcase">
 								<div class="-gallery">
@@ -56,7 +56,7 @@ the_post();
 						<div>
 							<h2 class="-title wp-customize-defining__title" data-aos="fade-in"><?php echo chopan_theme_custom('what_i_do__defining_title', 'Defining' ); ?></h2>
 							<p data-aos="fade-in" class="wp-customize-defining__description">
-								Conceptualization of ideas and definitions into maps and models to enable service decisions. Fast prototyping and controlled environment implementations to probe hypothesis.
+								<?php echo chopan_theme_custom('what_i_do__defininig_description', 'Conceptualization of ideas and definitions into maps and models to enable service decisions. Fast prototyping and controlled environment implementations to probe hypothesis.'); ?>
 							</p>
 							<div class="-showcase">
 								<div class="-gallery">
@@ -69,9 +69,9 @@ the_post();
 					</div>
 					<div class="--developing">
 						<div>
-							<h2 class="-title" data-aos="fade-in">Developing</h2>
-							<p data-aos="fade-in">
-								Creation and test of digital products and design systems by mockups and prototypes. Usability, guerrilla, and heuristic tests to detect design problems.
+							<h2 class="-title wp-customize-developing__title" data-aos="fade-in"><?php echo chopan_theme_custom('what_i_do__developing_title', 'Developing'); ?></h2>
+							<p data-aos="fade-in" class="wp-customize-developing__description">
+								<?php echo chopan_theme_custom('what_i_do__developing_description', 'Creation and test of digital products and design systems by mockups and prototypes. Usability, guerrilla, and heuristic tests to detect design problems.'); ?>
 							</p>
 							<div class="-showcase">
 								<div class="-gallery">

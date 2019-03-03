@@ -27,7 +27,7 @@ the_post();
 			<div class="-left">
 				<?php if ( $post->portfolio_client_name ) : ?>
 				<h3>
-					Project's Client
+					<?php esc_html_e("Project's Client", 'chopan_2019'); ?>
 				</h3>
 				<a href="<?php echo esc_url( $post->portfolio_client_url ); ?>">
 					<?php echo esc_html( $post->portfolio_client_name ); ?>
@@ -40,7 +40,7 @@ the_post();
 				<?php endif; ?>
 				<?php if ( ! empty( get_post_meta( $post->ID, 'portfolio_equipo', false ) ) ) : ?>
 				<h3>
-					People Involved
+					<?php esc_html_e('People Involved', 'chopan_2019'); ?>
 				</h3>
 				<ul>
 					<?php foreach ( get_post_meta( $post->ID, 'portfolio_equipo', false ) as $person ) : ?>

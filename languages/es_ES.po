@@ -1,0 +1,103 @@
+# Copyright (C) 2019 Chopan_2019
+# This file is distributed under the same license as the Chopan_2019 package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Chopan_2019\n"
+"POT-Creation-Date: 2019-03-03 15:01-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Felipe Lavín <felipe@bloom-ux.com>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: footer.php:4
+#, php-format
+msgid ""
+"<span class=\"-emoji --point-up\">☝️</span> check <a href=\"/work/\">my work</"
+"a> to see<br> what I do.<br class=\"tablet\"><span class=\"-emoji --hello\">👋"
+"</span> or <a href=\"mailto:%s\">let’s talk</a>."
+msgstr ""
+"en <span class=\"-emoji --point-up\">☝️</span> <a href=\"/work/\">mis "
+"trabajos</a> está<br> lo que hago.<br class=\"tablet\"><span class=\"-emoji --"
+"hello\">👋</span> o me puedes <a href=\"mailto:%s\">escribir</a>."
+
+#: footer.php:13
+#, php-format
+msgid "here’s <a class=\"--link\" href=\"%s\">my CV</a> for more details."
+msgstr "acá está <a class=\"--link\" href=\"%s\">mi CV</a> para más detalles."
+
+#: front-page.php:26 partials/site-header.php:8
+msgctxt "url seccion"
+msgid "/writings/"
+msgstr "/escritos/"
+
+#: front-page.php:26
+msgctxt "link home"
+msgid "See my blog"
+msgstr "Ver blog"
+
+#: front-page.php:37
+msgctxt "seccion home"
+msgid "This is what I do"
+msgstr "Esto es lo que hago"
+
+#: inc/class-customizer.php:144
+#, php-format
+msgctxt "formato etiquetado de campos del customizer"
+msgid "%1$s [%2$s]"
+msgstr "%1$s [%2$s]"
+
+#: inc/class-theme-customizer.php:20
+#, fuzzy
+#| msgctxt "seccion home"
+#| msgid "This is what I do"
+msgid "Sección \"This is what I do\""
+msgstr "Esto es lo que hago"
+
+#: partials/site-header.php:8
+msgctxt "header"
+msgid "Writings"
+msgstr "Escritos"
+
+#: partials/site-header.php:9
+msgctxt "url seccion"
+msgid "/work/"
+msgstr "/trabajos/"
+
+#: partials/site-header.php:9
+msgctxt "header"
+msgid "Work"
+msgstr "Trabajos"
+
+#: partials/site-header.php:10
+msgctxt "url seccion"
+msgid "/me/"
+msgstr "/sobre-mi/"
+
+#: partials/site-header.php:10
+msgctxt "header"
+msgid "Me"
+msgstr "Sobre mí"
+
+#: single-jetpack-portfolio.php:30
+msgid "Project's Client"
+msgstr "Cliente"
+
+#: single-jetpack-portfolio.php:43
+msgid "People Involved"
+msgstr "Equipo"
+
+#: single.php:37
+msgid "Previous Post"
+msgstr "Post anterior"

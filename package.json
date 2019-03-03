@@ -36,6 +36,8 @@
     "webpack-merge": "^4.1.5"
   },
   "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-wp-pot": "^2.3.4",
     "lodash": "^4.17.11"
   }
 }
