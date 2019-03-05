@@ -36,12 +36,28 @@ msgctxt "seccion home"
 msgid "This is what I do"
 msgstr ""
 
+#: page-me.php:3
+msgid "Sobre mí"
+msgstr ""
+
+#: page-work.php:3
+msgid "Trabajos"
+msgstr ""
+
+#: page-writings.php:3
+msgid "Escritos"
+msgstr ""
+
 #: single-jetpack-portfolio.php:30
 msgid "Project's Client"
 msgstr ""
 
 #: single-jetpack-portfolio.php:43
 msgid "People Involved"
+msgstr ""
+
+#: single-jetpack-portfolio.php:80
+msgid "Previous Project"
 msgstr ""
 
 #: single.php:37

@@ -72,15 +72,18 @@ the_post();
 		<?php endif; ?>
 	</section>
 
+	<?php $previous_project = chopan_previous_work(); ?>
+	<?php if ( $previous_project ) : ?>
 	<section class="next-project transition-in">
 		<!-- BEGIN: Next Project - Replace 'href' attribute -->
-		<a href="#" class="inner">
-			<h3>Next Project</h3>
+		<a href="<?php echo get_permalink( $previous_project->ID ); ?>" class="inner">
+			<h3><?php _e('Previous Project', 'chopan_2019'); ?></h3>
 			<h1>
-				Public innovators network.
+				<?php echo $previous_project->post_title; ?>
 			</h1>
 		</a>
 		<!-- END: Next Project -->
 	</section>
+	<?php endif; ?>
 </div>
 <?php get_footer(); ?>

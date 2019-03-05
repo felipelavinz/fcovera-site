@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Chopan_2019\n"
-"POT-Creation-Date: 2019-03-03 15:01-0300\n"
+"POT-Creation-Date: 2019-03-05 19:55-0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Felipe Lavín <felipe@bloom-ux.com>\n"
 "Language-Team: \n"
@@ -94,6 +94,10 @@ msgstr "Cliente"
 #: single-jetpack-portfolio.php:43
 msgid "People Involved"
 msgstr "Equipo"
+
+#: single-jetpack-portfolio.php:80
+msgid "Previous Project"
+msgstr "Proyecto anterior"
 
 #: single.php:37
 msgid "Previous Post"
