@@ -92,7 +92,7 @@ function chopan_theme_custom( $key, $default = '', $lang = '' ) {
 	return $customizer->get_theme_custom( $key, $default, $lang );
 }
 
-function chopan_previous_work( int $id = 0 ) : ?WP_Post {
+function chopan_previous_work( int $id = 0 ) {
 	$post = get_post( $id );
 	$previous = new WP_Query([
 		'post_type'      => 'jetpack-portfolio',
