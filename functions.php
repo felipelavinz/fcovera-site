@@ -33,23 +33,26 @@ class Chopan_2019 {
 			$classes[] = '--index';
 			$classes[] = 'preload';
 		}
-		if ( is_page('writings') ) {
+		if ( is_home() ) {
 			$classes[] = '--writings';
 			$classes[] = '--blog';
 		}
-		if ( is_page('work') ) {
+		if ( is_page('work') || is_page('trabajos') ) {
 			$classes[] = '--work';
 			$classes[] = '--blog';
 		}
 		if ( is_singular('jetpack-portfolio') ) {
 			$classes[] = '--work-post';
 		}
-		if ( is_page('me') ) {
+		if ( is_page('me') || is_page('sobre-mi') ) {
 			$classes[] = '--me';
 		}
 		if ( is_singular('post') ) {
 			$classes[] = '--writings-post';
 		}
+		$classes = array_filter( $classes, function( $item ){
+			return $item !== 'blog';
+		} );
 		return $classes;
 	}
 	public function enqueue_assets() {
