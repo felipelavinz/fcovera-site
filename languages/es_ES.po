@@ -28,7 +28,7 @@ msgid ""
 "a> to see<br> what I do.<br class=\"tablet\"><span class=\"-emoji --hello\">👋"
 "</span> or <a href=\"mailto:%s\">let’s talk</a>."
 msgstr ""
-"en <span class=\"-emoji --point-up\">☝️</span> <a href=\"/trabajos/\">mis "
+"<span class=\"-emoji --point-up\">☝️</span> en <a href=\"/trabajos/\">mis "
 "trabajos</a> está<br> lo que hago.<br class=\"tablet\"><span class=\"-emoji --"
 "hello\">👋</span> o me puedes <a href=\"mailto:%s\">escribir</a>."
 

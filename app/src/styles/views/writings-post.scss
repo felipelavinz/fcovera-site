@@ -13,7 +13,7 @@
     align-content: center;
     align-items: flex-start;
     justify-content: space-between;
-  
+
     @include breakpoint(large down) {
       padding: 0 120px;
     }
@@ -47,12 +47,12 @@
 
     img {
       display: block;
-      width: 100%;
+      max-width: 100%;
       height: auto;
     }
 
     .-image {
-      width: 100%;
+      max-width: 100%;
       padding-bottom: calc(492 / 814 * 100%);
       margin-bottom: 20px;
       background-repeat: no-repeat;
@@ -185,6 +185,14 @@
       }
     }
 
+    figure,
+    img,
+    iframe {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 40px auto;
+    }
     figure {
       margin-bottom: 0;
     }
@@ -219,7 +227,7 @@
     @include xy-cell(8);
 
     position: relative;
-    
+
     img {
       position: relative;
       width: 50%;
